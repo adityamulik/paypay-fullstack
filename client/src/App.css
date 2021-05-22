@@ -1,0 +1,47 @@
+.container-wrapper {
+  padding-left: 235px; 
+  padding-right: 235px; 
+}
+
+.feedback-container {
+  width: 400px;
+  border: solid;
+}
+
+
+
+.centered-container {
+  margin-left: 25%;
+  margin-right: 25%;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-message {
+  background-color: #ffccbb;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.error-message {
+  background-color: #ffccbb;
+  padding: 8px;
+  border-radius: 4px;
+}
+.full-width {
+  display: block;
+  width: 100%;
+}
+
+.space-before {
+  margin-top: 16px;
+}
+
+.space-after {
+  margin-bottom: 16px;
+}
+
+.logged-in-as {
+  float: left;
+  margin-right: 16px;
+}
