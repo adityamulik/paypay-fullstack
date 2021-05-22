@@ -18,7 +18,7 @@ const EmployeeDetails = () => {
   useEffect(() => {
     axios.get(`/api/employee/${employee.employee_id}/feedback/`)
       .then(res => setFeedbackData(res.data));
-  }, []);
+  }, [feedbackData]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
